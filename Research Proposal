@@ -1,0 +1,109 @@
+# Thesis project : "Understanding neuronal development and activity in cultures: investigating the interplay between network structure and spontaneous or induced activity."
+
+How do neurons and neuronal networks grow ? How does a neuron develop it's specific morphology in interaction with other neurons and the environment ? While this is a very general question with issues fundamental in neuroscience and medicine, the purpose of this thesis is to progress the understanding of the biophysical processes shaping the development of neuronal networks in cultures and microfluidics devices in relation with the electrical activity they sustain.
+
+## Introduction
+
+In vitro cultures of neurons (from rodents or human stem cells) are a powerful tool for neurobiological research. Networks of real biological neurons are grown in custom culture chambers using embryonic cells as starting material. These cells are maintained alive several weeks and sustain neuronal electric activity. Cultures of neurons are of special interest to neurobiologists since they allow researchers to perform experiments acting directly on the neurons, without interfering with the whole living animal and are commonly used to study basic physiological properties. However, out of their natural environment, the growing neurons establish different connectivity patterns (then with different functionality) from their natural tissue.
+While this may be a nuisance for number of applications, it can precisely be of special interest in a bottom-up approach for understanding neuronal properties. In vivo or in brain slices, the natural network is functional but fixed and tissue dependent. In a culture it is possible to control the biological, physical and chemical in vitro conditions, allowing to change growth conditions and parameters. Specific techniques to produce, stimulate and observe cultures of neurons have been developed by various teams in the last thirty years (Doti et al. 1988). 
+Neuron morphology and network connectivity on cultures remain largely uncharacterised due to the large spatial extension of these cells and their highly branched morphology. Theoretical deductions from experiments on neuron cultures collective activity indicate that random networks with a long tailed modified gaussian distribution of the number of incoming connections on neurons are a good approximation of typical small cultures [Cohen 2010, Tlusty 2009]. 
+As for the large scale behaviour, other recent studies [Orlandi 2013, Gritsun 2012] using Matrix Electrodes Arrays or Ca2+ imaging to record spatio-temporal activity on cultures and network simulations show the complexity of spiking avalanches and emergence of large scale activity bursts. This specific dynamic has been shown to be connected with topological features of the underlying neuronal network. These experimental results lead us to believe that neurons even in culture manage to organise themselves in a specific, non random fashion. 
+Appropriate and efficient models of neuron potentials [Brette 2005] and interactions [Tsodyks 1998] are now available. However progress to understand the neuronal spatio-temporal dynamics and relationship with the topology requires more efforts at the level of the network generation real and simulated.
+
+## Project outline
+
+This thesis project aims to progress in the understanding of neuronal networks growth in order to explore the link between connectivity patterns and complexity of the neuronal activity. To this purpose neuronal cultures in sophisticated microfluidics devices are taken as a tool allowing to drive the connectivity and the activity between and within neuronal populations during development, which is not possible with animal models. 
+The project has the more specific scope of creating biophysical models of neuronal development and networks growth based on dedicated experiments in specific designed culture devices, and implementing the results into an efficient simulation program allowing the  investigation of 
+a) growing neuronal network properties, with or without external electrical stimulation, 
+b) the connection between the network properties and the neuron population spontaneous or stimulated activity along the development.
+
+**a)  Growing neuronal networks properties
+
+The first objective in this project will be to investigate the properties of neuronal networks growth in culture. I will have available the results of Tanguy Fardet's thesis : an efficient neuronal growth simulator implementing different available growth models. This will allow for the first time implementation of topological features into the modeling of neuronal networks. Models used in publications until now made hasty assumptions on the details of the neuronal architecture [Orlandi 2013, Gritsun 2013, de Santos-Sierra 2014]. Thus, a compared analysis between simulations and experiments on living neurons grown in controlled microenvironments will be of great help. Borrowing concepts from those papers I want to study the topological properties of the network with more realistic models. 
+To be more specific, the simulation aims to help elaborate the basis for further modelling of the involved growth processes in particular interaction between in one hand adjacent growth cones and on the other hand growing neurites. These interactions rise the question of the emergence of self-organized structures that increase the network complexity. 
+As a general framework for this project, electrical stimulation of the network will be of interest. It will bring us to investigate the variability in the network topological features with regards to the stimulations. We will use it in experiments as a controlled effective interaction between neurons, allowing a further understanding of the impact of neighboring activity in the growing process. 
+
+**b)  Development of network structural properties and spontaneous or stimulated activity along the development.
+
+After five to seven days in vitro (DIV), neurons in cultures start having a spontaneous spiking activity corresponding to time of synapses' establishment.  After some more days (age 9 to 12 DIV) this activity evolves into large scale collective events of synchronized firing bursts over the whole population lasting some tenths of milliseconds interspaced by quiescent periods. The same behavior is also observed in vivo with the occurrence of large scale synchronized bursts during early stages of brain development where the neurons of whole brain sub-regions burst all together.
+Synchronised activity in neuronal networks has been explored focusing on the effect of the network size [H. Yamamoto et al 2016] and has shown that there is a limit size(~12cells). As for the dynamics of those bursts, large networks have been studied and they seem to develop specific regions that might be able to create or amplify synchronised activity [Orlandi 2013]. However, there is a lack of knowledge on the link with a specific structure of the network. 
+Using microfludics devices connecting different neuronal populations we plan to use specific setups for differentiated stimulation of each population during the development. By controlling both population level connectivity and stimulated activity we wish to investigate how stimulation patterns may affect the network development. The outcome may be either at the level of the network structure, i.e. neurites' structure and establishment of synaptic connection or at the level of synaptic weight plasticity.
+
+##Methods
+
+This thesis project aims to advance at the same time experiments and simulations allowing one to improve the other and vice versa. 
+
+### Modelling
+
+A variety of models exists in the literature to generate neuronal shapes [Graham 2006]. These focus on different possible mechanisms at play and have been recently applied in some studies on neuronal cultures [Gritsun 2012, Orlandi 2013]. Some class of models [vanPelt 2002] are based on stochastic neurite elongation and branching processes that can be sufficient in some cases to effectively capture features of the morphology, this without a representation of underlying biological growth mechanism. Generation of a network in this way is numerically efficient. In a preliminary study, we already simulated neuronal growth with such an approach to obtain biologically consistent networks that proved strikingly similar to experimental ones. On another hand chemotatic and topographic guidance of growth cones is well known to occur (although the involved mechanisms are still debated).
+
+Other types of models include therefore neurite guidance processes by chemical cues which possibly are also released by growth cones themselves [Segev 2000]. This leads to a complex picture where interactions and signaling between developing neurons shape the growing network. Numerically chemotactic models are more challenging but allow a better exploration of biological hypotheses. Differentiation of neurons and outgrowth and branching of their axons and dendrites is largely an unresolved complex dynamic process. 
+
+We plan to take advantage of the different proposed approaches and implement them in a simulation software that can generate networks in complex geometries as multiple connected cultures chambers useful for functional analyses. We will implement variants of stochastic effective growth models, for rapid generation of reference networks, and of guided growth models. As molecular guidance of neurite growth is still an open issue, the software will be modular so to make it easy to change or evolve models. 
+
+In a second stage of our project we want to explore the culture morphological changes involving cell bodies aggregation and fasciculation. This requires entirely new modeling to account for forces and displacements. Structural analysis methods will be necessary, such as finite elements that can take into account local physical processes. Expertise on such approaches is available at the MSC lab.
+
+### Experiments
+
+We will design specific and controlled networks. This is possible thanks to the high controllability of cultured neurons using micro patterning technics. 
+To explain things clearly, we will start with a simple idea : the basic component of a dynamic network is a link between two nodes. Taking as nodes small subnetworks we aim to recreate specific structures of classical neuronal networks in larger scale. This will create a network of network, where the smallest networks will contain at least 20 neurons, in order to be able to see a synchronized activity. These "small" networks will be linked together in controlled fashion in order to create the "large" network. We will then focus on the large one, that we know perfectly. For instance, this will allow us to study tree like structures as well as loops. 
+Expecting a common behaviour of each populations (small networks) we can asssume that each nodes of the large network will be identical. This will lead to much less variability in the large network than if we used individual neurons as nodes. This experiments are then reproducible.
+The experimental part will then be based on two paths : 
+
+1) Tracking neuronal development in cultures : controlled experiments for neuronal growth modelling.
+We will analyse neurites outgrowth dynamics using time-lapse recordings of cultures in the large network with controlled geometry. Image analysis for neurites' tree reconstruction to extract growth parameters as elongation rate, branching rate, resting times, branches diameter and persistence length, etc… This will allow us to adjust the models for the simulations.
+
+2) Analyse network activity in controlled systems.
+On one hand, we will monitor the activity of the large network and set up a compared analysis on different stimulation, "large network" structure and age of the network. It may relate specific network features to activity patterns.
+On the other hand, we will be able to compare these recordings with computation of the activity on the grown networks performed by with the NEST simulator in the same culture geometries. Simulation will be fed and build up with the experimental resutls. 
+
+Using in parallel these two paths we may come up with optimal conditions for a specific activity pattern to emerge in a neuronal network.
+
+## People
+
+The project is based on a co-supervision between a theoretical and an experimental group.
+
+The theoretical neurophysics team members at CNRS MSC lab in Paris Diderot University has extensive experience of dynamical and statistical systems analysis and simulation.  It is composed by three associate professors Samuel Bottani, Pascal Monceau and Stephane Metens, and currently a PhD student, Tanguy Fardet in his last year. 
+
+The experimental group of Catherine Villard, Jean Louis Viovy at the IPGG has a leading experience in microfluidics and microengineering applied in particular to neuronal cultures.
+
+Both groups regularly interact since then, on this topic and on efforts, involving both theoretical and technological advances, towards implementing plasticity and learning in neuronal cultures. This already lent one previous PhD student at the MSC lab, Renaud Renault to spend a whole year (2014-15) in Jean Louis Viovy group at the Curie Institute in Paris working there under the supervision of Catherine Villard. These efforts contributed to the experimental work, a common publication [Renaud 2015] and a patent [C. Villard 2016].
+
+## Resources
+### Computation
+
+This project will require large scale numerical simulations and exploration of the parameter space. The MSC group has extensive experience of large scale simulation in statistical physics and has access to the French national high performance compution cluster CINES. Since 2012 it has renewed grants each year in computation time for its culture neuronal activity simulation project.
+
+### Experimental
+
+Experiments will be held in the IPGG for its technical experience in microfluidics. Networks can be design by micro patterning technics and the neurons activity will be monitored through $Ca^{2+}$ fluorescence or custom Micro Electrode Array. 
+
+## Conclusion 
+
+To summarise, this project will provide a better understanding of neuronal network growth cultures in physiological conditions and of the relation between topology and electrical activity. Mixing experimental and theoretical work we aim to describe growing neuronal networks in order to identify the basic properties needed for the emergence of a synchronised activity in during development of the network.
+Hopefully, this will bring new fundamental knowledge for neurosciences that might be useful for various research from studying pathological disordered networks in medicine to the functioning of memory and learning. 
+
+## References
+
++ Dotti, C. G., Sullivan, C. A., & Banker, G. A. (1988), 8(4), 1454-1468.
++ Yamamoto H., et al 2016 Physical Review E 94, 012407
++ Brette R, Gerstner W., J Neurophysiol. 2005 Nov;94(5):3637-42
++ De Santos-Sierra, D. et al., 2014M. Perc, ed. PloS one, 9(1), p.e85828.
++ Cohen, O. et al., 2010., Europ. Phys. Lett., 89(January), pp.1to6.
++ Corner, M. A., 2008.. Brain Research Reviews, 59(1), 221 to 244.
++ Graham, B.P. & van Ooyen, A., 2006. BMC neuroscience, 7 Suppl 1, p.S9.
++ Gritsun, T.A., le Feber, J. & Rutten, W.L.C., 2012. T. Wennekers, ed. PloS + one, 7(9), p.e43352.
++ Mercati, O. et al., 2013. Biology open, 2(3), pp.324 to 34.
++ Orlandi, J.G. et al., 2013. Nature Physics.
++ Penn Y, Segal M, Moses E., Proc Natl Acad Sci U S A. 2016 Mar + 22;113(12):3341-6. doi: 10.1073/pnas.1515105113. Epub 2016 Mar 9.
+Renault R, Sukenik N, Descroix S, Malaquin L, Viovy JL, Peyrin JM, Bottani S, 
+Monceau P, Moses E, Vignes M. PLoS One. 2015 Apr 22
++ Segev, R. & Ben-Jacob, E., 2000. The official journal of the International + Neural Network
+Society, 13(2), pp.185â“99.
++ Tlusty, T. & Eckmann, J.-P., 2009. Journal of Physics A: Mathematical and + Theoretical, 42(20), p.205004.
++ Tsodyks, M., Pawelzik, K. & Markram, H., 1998. Neural computation, 10(4), + pp.821 to 35.
++ Van Pelt, J. & Uylings, H.B.M., 2002. Network (Bristol, England), 13(3), + pp.261 to 81.
++ Van Pelt, J. & Uylings, H.B.M., 2002. Network (Bristol, England), 13(3), + pp.261 to 81.
++ Wagenaar, D. A. 2005 Journal of Neuroscience, 25(3), 680 to 688
++ Wakade, C.G. et al., 2013. Journal of neuroscience research, 91(11), pp.1408 to18.
++ C. Villard, R. Renault, JB Durand, JL Viovy, JM Peyrin PCT EP2016 075469
