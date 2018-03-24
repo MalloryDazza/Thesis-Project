@@ -55,7 +55,7 @@ We will analyse neurites outgrowth dynamics using time-lapse recordings of cultu
 
 2) Analyse network activity in controlled systems.
 On one hand, we will monitor the activity of the large network and set up a compared analysis on different stimulation, "large network" structure and age of the network. It may relate specific network features to activity patterns.
-On the other hand, we will be able to compare these recordings with computation of the activity on the grown networks performed by with the NEST simulator in the same culture geometries. Simulation will be fed and build up with the experimental resutls. 
+  On the other hand, we will be able to compare these recordings with computation of the activity on the grown networks performed by with the NEST simulator in the same culture geometries. Simulation will be fed and build up with the experimental resutls. 
 
 Using in parallel these two paths we may come up with optimal conditions for a specific activity pattern to emerge in a neuronal network.
 
