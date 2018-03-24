@@ -1,0 +1,130 @@
+# Questionnaire FdV
+
+*Project title (french + English) 
+- "Understanding neuronal development and activity in cultures : investigating the interplay between network structure and activity"
+- "Etude de la relation entre l’activité et la structure d’un réseau de neurones en développement"
+
+*Research Keywords : Neurone cultures ; Neuronal network ; synchronised activity ; micro-patterning ; NEST Simulations
+
+*Disciplines (Consult the European Research Council list of research domains and select up to 5 : https://erc.europa.eu/sites/default/files/document/file/erc%20peer%20review%20evaluation%20panels.pdf)
+- PE3_15 Statistical physics: phase transitions, noise and fluctuations, models of complex
+systems… 
+- PE3_16 Physics of biological systems
+- PE6_12 Scientific computing, simulation and modelling tools  
+- LS2_14 Biological systems analysis, modelling and simulation 
+- LS5_10 Neuroimaging and computational neuroscience
+
+*Project abstract (French and English): 
+
+	Studies have shown that neuronal cultures in vitro (at early stage of their development) are able to exhibit a collective activity and highlighted the importance of the network. Nevertheless, they did not come out with any further explanation on its specific features. We would like to tackle this issue : to what extend the network and the activity are related ?
+	Appropriate models for neuron potentials and interactions are nowadays available. However, concrete results on specific network structures are lacking. With an efficient neuronal growth simulator we want to investigate the properties of growing networks submitted to electrical inputs. 
+	Taking advantage of simulations and experimental work, this project aim to further the understanding of activity in growing neuronal networks. Activity simulations based on specific biophysical models of neurons and networks will be compared with activity recording in neuronal network cultures. This interdisciplinary work will relate specific activity pattern with structural features of the network.
+	The method will be based on a strong collaboration between experiments on real cultures,  simulations and theoretical work for modelling the network growth. The system we want to study particularly is a network of subnetworks of at least ~20 neurones making one large and entirely controlled network. That way, we will be able to carry out a compared analysis on various "large networks" and electrical stimulation in order to link specific activity pattern and neuronal network growth.
+	Large network will be design with micro-patterning technics and study on specific growth properties such as elongation rate, resting times, branching rate or persistence length… Activity on those particular network can be monitored through calcium imaging or custom Micro Electrodes Array. The simulations will feed on experimental results in order to provide efficient conclusion. 
+  
+	Plusieurs études ont permis de mettre en evidence que les cultures de neurones dans les premières étapes de leur développement peuvent être soumises à des activités collectives spontanées. Ces observations ont été reliées aux propriétés structurelles du réseau sans pour autant avoir pu approfondir en détail le problème. Ce projet veut renouer le lien entre activité et structure du réseau. 
+	Il existe aujourd’hui des modèles efficaces d’interactions et de potentiel d’action de neurones. Cependant les réseaux complexes que forment ces cellules sont relativement mal connus. Avec l’aide de simulations de croissance de neurones nous allons étudier les propriétés d’un réseau selon différentes stimulations électriques. 
+	Par le biais de simulations numériques et d’experiences en laboratoire, ce projet a pour objectif de développer la compréhension du lien entre activité et structure d’un réseau de neurones en croissance. Les simulations d’activité reposent sur des modèles biophysique de réseaux de neurones implementer par le simulateur NEST et seront comparées aux enregistrements in vitro. Grace à un travail interdisciplinaire, réunissant modélisation théorique de systèmes biophysique et expériences sur des cultures de neurones nous reconstruirons les relations qui peuvent exister entre certain schémas spécifiques d’activité et la structure du réseau.
+	Le système d’étude sera formé comme un réseau de sous-réseaux. Les sous-réseaux seront formés de au moins ~20 neurones et reliés les uns aux autres afin de former un "réseau géant" (quelques noeuds) dont la géométrie sera parfaitement déterminée. Ainsi nous serons capable de mettre en place une série d’experiences sur différentes géométries et stimulations. 
+	Ce réseau géant sera construit grace à des techniques de "micro patterning" et nous étudierons les paramètres de croissance des neurones au sein de ce réseau. L’activité sera quand à elle enregistrée par imagerie calcique ou par le biais de matrices de micros electrodes. Ces résultats expérimentaux permettront d’améliorer les paramètres des simulations numériques afin d’en déduire des conclusions les plus pertinentes possible. 
+
+*Primary PhD supervisor and lab 
+
+**Name Samuel Bottani 
+
+**Citations of 5 relevant publications
+
+**List the other students advised by this supervisor : 
+Name Tanguy Fardet
+Doctoral school : 
+entry date and exit date :
+
+**Address of your primary work location : 
+Laboratoire MSC Batiment Condorcet 
+10 rue Alice Domon et Léonie Duquet
+75205 Paris Cedex 13
+
+**Research group at University Paris Diderot
+Team : Theoretical neurophysics (Leader, Samuel Bottani)
+Laboratory : Matière et systemes complexes  (Director, Laurent Limat)
+University Paris Diderot (President, Christine Clerici)
+
+**Research group affiliations : 
+	Team name: Theoretical Neurophysics
+	Research unit ID : 
+	Attachments : Laboratory MSC
+	Email of team leader : samuel.bottani@uspc.fr
+
+**Lab/department name : Mature systems complexes
+	research unit ID : UMR 7057 CNRS
+	attachments : University Paris 7 Diderot
+	Website : http://www.msc.univ-paris-diderot.fr/
+	Director name : Laurent Lima
+	Gender : Male 
+	email of the director : dirmsc@univ-paris-diderot.fr
+	
+**Institute Name : University Paris Diderot 
+	Research ID : 
+	Attachments : 
+	Website : https://www.univ-paris-diderot.fr/
+
+*Second PhD supervisor and lab 
+
+**Name : Catherine Villard 
+
+**Citations of 5 relevant publications
+
+**List the other students advised by this supervisor : 
+Name :
+Doctoral school :
+entry date and exit date :
+
+**Address of your primary work location : 
+Institut Pierre-Gilles De Gennes pour la microfluidique, 
+6 rue Jean calvin, 
+75005 Paris 
+
+**Research group affiliations : 
+	Team name : Macromolécules et microsystèmes en biology et en médecine.
+	Research unit ID : 
+	Attachments :
+	Name leader : Jean Louis Viovy
+	Gender : Male
+	Email : jean-louis.viovy@curie.fr
+
+**Lab/department name : Laboratorie Physico-Chimie Curie
+	research unit ID : UMR 168 CNRS
+	attachments :
+	Website : https://science.curie.fr/recherche/physique-chimie-biologie-multi-echelle-et-cancer/physico-chimie/
+	Name Leader : Maxime Dahan
+	Gender : Male
+	Email : 
+	
+**Institute Name : Institute Curie
+	Research ID : 
+	Attachments : 
+	Website : https://science.curie.fr/
+
+*Question to be answered with the PhD Supervisors :
+
+**For the applicant, how did you prepare your research project with your supervisors (200words): 
+
+	After research in order to find a team with whom I was able to carry out a thesis project, we started looking for common interests. After several discussion on what Samuel Bottani and Catherine Villard were working on we manage to ascertain specific scope that on one hand needed to be answered and on the other hand could be answered with the ressources we have. 
+	The way we proceed afterwards so as to find the right words to narrow down the central point of the project was the following. Samuel and Catherine provided the scientific expertise and a preliminary draft to help me with things I did not master. After learning a lot with various references they would gave me, I was able see and develop my project the way I though best. 
+	With the lucid questioning of Catherine and Samuel on what I wrote, we end up with the final project. In the end the project was established by all three us with my personal questioning and their scientific advices.  
+
+**Summary of primary supervisor’s work : (max500words) 
+
+**Disciplines of the primary supervisor : (Consult the European Research Council list of research domains and select up to 5) 
+
+**Is the primary supervisor interested in teaching ? 
+
+**Summary of secondary supervisor’s work : (max500words)
+
+**Disciplines of the secondary supervisor : (Consult the European Research Council list of research domains and select up to 5) 
+
+**Is the secondary supervisor interested in teaching ? 
+
+**For the supervisors, why this thesis is presented to the FdV doctoral school rather than to the doctoral school associated with your lab ? (max200words)
+
+**For the supervisors, please indicate if you and your lab are interested in contributing to the school program and how. (200words)
