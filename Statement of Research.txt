@@ -22,3 +22,5 @@ Statement of Previous Research.
 	During this internship, I was to work with a small multicultural group. We were four coming from four different countries, and this help me develop communication and relation skills. For instance, we used to have meetings sometimes with three different languages, although english was the most spoken one. 
 
 	More recently, I started working with Samuel Bottani’s team and we are interested in large scale dynamics in population of neurones. Using both simulations and analytical models we analyse the nucleation process of the clusters of activity so as to find what govern their apparition. 
+	
+Mallory Dazza 
